@@ -1,0 +1,42 @@
+# core: 8.x
+type: theme
+name: 'Law Theme'
+description: 'Law Theme is a Drupal 8 theme build for legal/law website.'
+
+regions:  
+  header: 'Header'  
+  logo: 'Logo'
+  message: 'Status message'
+  breadcrumb: 'Breadcrumb'
+  title: 'Page Title'
+  content: 'Content'
+  sidebar_right: 'Right Sidebar'
+  content_bottom: 'Content Bottom'
+  footer_sponsored: 'Footer sponsored'
+  footer_1: 'Footer 1'
+  footer_2: 'Footer 2'
+  footer_3: 'Footer 3'
+  footer_4: 'Footer 4'  
+  no_region: 'Not Assigned'  
+
+libraries:
+  - 'law_theme/bootstrap'
+  - 'law_theme/global-styling'
+
+# Information added by Drupal.org packaging script on 2016-08-02
+# version: '8.x-1.1'
+# core: '8.x'
+# project: 'law'
+# datestamp: 1470116949
+
+# Information added by Drupal.org packaging script on 2017-10-26
+# version: '8.x-2.x-dev'
+# core: '8.x'
+# project: 'law_firm'
+# datestamp: 1509021565
+
+# Information added by Drupal.org packaging script on 2017-10-27
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'law_firm_theme'
+datestamp: 1509106465
